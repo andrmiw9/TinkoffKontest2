@@ -6,7 +6,8 @@ sotr = [int(x) for x in sotr]
 leaven = int(input())
 root = sotr[leaven - 1]
 
-print(root)
+
+# print(root)
 
 
 def counter(seq: list) -> int:
@@ -41,9 +42,8 @@ def gen(root) -> []:
 
                 outp.extend(sotr[::-1])
             return outp
-    return None
 
 
 res = gen(root)
-print(*res)
+# print(*res)
 print(counter(res))
